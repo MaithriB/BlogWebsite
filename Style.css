@@ -1,0 +1,213 @@
+body{
+	background-color:#f4f4f4;
+	color:#555555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin:0;
+}
+
+.container{
+	overflow: hidden;
+}
+
+#main-header{
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+	color:rgb(78, 138, 78);
+	padding:110px;
+	background-image: url(../img/icon.jpg);
+	background-size: 400px;
+	
+}
+
+#main-footer{
+	text-align: center;
+	font-size:15px;
+}
+
+.h1{
+	text-align: center;
+	text-shadow: rgb(62, 128, 65);
+	position:absolute;
+    top: 50px;
+    left:44%;
+}
+
+#navbar{
+	background-color: rgb(1, 63, 1);
+    position:sticky;
+	position:-webkit-sticky;
+	top: 0;
+	height: 4.5%;
+	width: 100%;
+}
+
+#navbar ul{
+	padding: 2px;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	text-decoration: none;
+	font-size:20px;
+	padding-right:15px;
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+
+a:hover{
+	color:rgb(72, 49, 155);
+}
+
+a:active{
+	color:green;
+}
+
+
+.container{
+	width:80%;
+    background-color: none;
+	margin:auto;
+}
+
+.button{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+	font-size: 18px;
+}
+
+.button:hover{
+	background:rgb(0, 217, 255);
+	color:#fff;
+}
+
+
+.box-1{
+	background-color:rgb(81, 206, 32);
+	color:black;
+    border-left:5px rgb(44, 103, 107) solid;
+	border-right:5px rgb(124, 13, 128) solid;
+	border-top:5px red solid;
+	border-width:3px;
+	border-bottom-width:7px;
+	border-top-style:solid;
+
+	padding:100px;
+	margin-top:20px;
+	margin:20px 0;
+}
+
+.box-1 h2{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight:800;
+	font-style:oblique;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing: 0.1em;
+	word-spacing: 0.6em;
+}
+
+.categories{
+	
+	padding:10px;
+    margin-left:20px 0;
+}
+
+.categories li{
+	padding-bottom:6px;
+	border-bottom:dotted 1px rgb(3, 80, 10);
+    margin-left:20px 0;
+}
+
+.categories li:first-child{
+	background:lightsalmon;
+}
+
+.categories li:last-child{
+	background: rgb(157, 157, 245);
+}
+
+.categories li:nth-child(2){
+	background: rgb(172, 172, 87);
+}
+
+.categories li:nth-child(3){
+	background: lightseagreen;
+}
+
+
+.my-form{
+    border:10px;
+	padding:10px;
+	background-color:pink;
+}
+
+.my-form .form-group{
+	padding-bottom:10px;
+    
+}
+
+.my-form label{
+	display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding:8px;
+	width:50%;
+}
+
+.block{
+	width:33.3%;
+	box-sizing:border-box;
+    position: relative;
+}
+
+#block{
+	float: right;
+	width: 50%;
+	background-color: rgb(41, 22, 145);
+	padding:10px;
+	box-sizing:border-box;
+}
+
+#side{
+	float: right;
+	width:45%;
+	background-color:rgb(206, 193, 10);
+	padding:10px;
+	box-sizing: border-box;
+}
+
+.fix-me{
+	position: fixed;
+	top:300px;
+	right: 5px;
+	
+}
+
+.typewriter {
+	color: black;
+	overflow: hidden; 
+	white-space: nowrap; 
+	margin: 0 auto;
+	letter-spacing: .15em; 
+	animation: 
+	  typing 3.5s steps(30, end),
+	  blink-caret .4s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 55% }
+  }
+  
